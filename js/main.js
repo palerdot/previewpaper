@@ -35,6 +35,12 @@ $( function () {
 
             $("#preview-text-input").on("keyup", _.bind(keypress_throttle, self) );
 
+            $("#update-preview").on("click", function (e) {
+                self.updatePreview();
+                e.preventDefault();
+                return false;
+            });
+
         },
 
         initRangeSlider: function () {
