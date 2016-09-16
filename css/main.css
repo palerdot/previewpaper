@@ -1,0 +1,41 @@
+#preview-paper .preview {
+    min-height: 300px;
+    height: auto;
+}
+
+.preview-left {
+    padding: 7px;
+}
+
+#screen-preview {
+    min-height: 300px;
+    height: auto;
+    padding: 50px;
+}
+
+#text-preview {
+}
+
+.preview-right {
+    padding: 7px;
+}
+
+output {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
